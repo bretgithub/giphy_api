@@ -1,0 +1,84 @@
+body {
+	background-color: pink;
+	color: grey;
+}
+
+html {
+	min-height: 100%;
+}
+#drag-queen-favorites {
+	font-style: bold;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.container {
+	opacity: 1;
+	margin-left: 40px;
+}
+
+button {
+    margin: 10px;
+    background-color: lightblue;
+    color: black;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-color: slategray;
+    border-radius: 2px;
+}
+
+#drag-queen-input-box {
+	float: right;
+    padding-right: 10rem;
+}
+
+label {
+	font-size: 24px;
+    font-weight: bolder;
+    padding-right: 20px;
+}
+
+#add-drag-queen {
+    padding: 4px 8px;
+    font-size: 14px;
+	margin-top: 10px;
+	border-radius: 2px;
+	background-color: magenta;
+	color: black;
+}
+
+#drag-queen-input {
+	margin-top: 10px;
+	height: 1.5rem;
+}
+
+#drag-queen-view {
+	margin-top: 10px;
+	margin-right: 25%;
+}
+
+.drag-queen-pictures {
+	float: left;
+    display: inline;
+    margin: 0px 20px 20px 20px;
+}
+
+h2 {
+    margin: 5px 0px 15px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	color: grey;
+}
+
+.footer {
+    background: lightblue;
+    margin-top: 10px;
+    padding: 5px 0;
+    text-align: center;
+    color: grey;
+    font-size: 16px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}

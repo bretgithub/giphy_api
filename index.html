@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Drag Queen Gifs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- linked style sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <!-- linked jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="drag-queen-favorites">Drag Queen Gifs</h1>
+    </div>
+
+    <!-- <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+            </div>
+          </div> -->
+    <!-- drag queen buttons will appear here -->
+    <div class="container">
+        <div class="row">
+            <!-- this does not contain the buttons in the container as expected with the grid -->
+            <div class="col-md-6" id="drag-queen-buttons"></div>
+        </div>
+    </div>
+    <!-- /buttons -->
+
+    <!-- drag queen form / add a drag queen -->
+    <div id="drag-queen-input-box">
+        <form id="drag-queen-form">
+            <label for="drag-queen-input">Add a Queen</label>
+
+            <input type="text" id="drag-queen-input"><br>
+
+            <!-- submit button triggers new drag queen to be added -->
+            <input id="add-drag-queen" type="submit" value="Submit">
+        </form>
+    </div>
+    <!-- /form -->
+
+
+    <!-- drag queens will show here-->
+    <div class="container">
+        <div class="row">
+            <!-- for some reason this does not contain the images into the container -->
+            <div class="col-md-6" id="drag-queen-load">
+                <div id="drag-queen-view"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /container -->
+
+    <!-- simple footer -->
+    <div class="footer">
+        &copy;Copyright 2019 Bret Allan
+    </div>
+    <!-- /footer -->
+
+    <!-- linked javascript resource  -->
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+
+</html>

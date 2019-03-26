@@ -18,6 +18,9 @@ The exercise had us manipulate:
 * Arrays
 * Debugging
 
+## GitHub Pages Link
+https://bretgithub.github.io/giphy_api/
+
 ## Roadmap
 Intend to improve the styling to make the page more visually appealing
 
